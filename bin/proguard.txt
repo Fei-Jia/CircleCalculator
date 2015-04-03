@@ -1,0 +1,119 @@
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11/res/layout-v11/abc_action_bar_decor.xml #generated:17
+# view v11/res/layout-v11/abc_simple_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.feijia.circlecalculator.CalcPreferenceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.feijia.circlecalculator.CircleCalcActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.feijia.circlecalculator.TutorialActivity { <init>(...); }
+
+# onClick res/layout/fragment_circle_calc.xml #generated:111
+-keepclassmembers class * { *** OnClearClick(...); }
+
+# onClick res/layout/fragment_circle_calc.xml #generated:359
+-keepclassmembers class * { *** OnEqualsClick(...); }
+
+# onClick res/layout/fragment_circle_calc.xml #generated:100
+# onClick res/layout/fragment_circle_calc.xml #generated:122
+# onClick res/layout/fragment_circle_calc.xml #generated:148
+# onClick res/layout/fragment_circle_calc.xml #generated:159
+# onClick res/layout/fragment_circle_calc.xml #generated:170
+# onClick res/layout/fragment_circle_calc.xml #generated:181
+# onClick res/layout/fragment_circle_calc.xml #generated:200
+# onClick res/layout/fragment_circle_calc.xml #generated:211
+# onClick res/layout/fragment_circle_calc.xml #generated:222
+# onClick res/layout/fragment_circle_calc.xml #generated:233
+# onClick res/layout/fragment_circle_calc.xml #generated:244
+# onClick res/layout/fragment_circle_calc.xml #generated:263
+# onClick res/layout/fragment_circle_calc.xml #generated:274
+# onClick res/layout/fragment_circle_calc.xml #generated:285
+# onClick res/layout/fragment_circle_calc.xml #generated:296
+# onClick res/layout/fragment_circle_calc.xml #generated:307
+# onClick res/layout/fragment_circle_calc.xml #generated:326
+# onClick res/layout/fragment_circle_calc.xml #generated:337
+# onClick res/layout/fragment_circle_calc.xml #generated:348
+# onClick res/layout/fragment_circle_calc.xml #generated:370
+# onClick res/layout/fragment_circle_calc.xml #generated:399
+# onClick res/layout/fragment_circle_calc.xml #generated:40
+# onClick res/layout/fragment_circle_calc.xml #generated:410
+# onClick res/layout/fragment_circle_calc.xml #generated:421
+# onClick res/layout/fragment_circle_calc.xml #generated:432
+# onClick res/layout/fragment_circle_calc.xml #generated:443
+# onClick res/layout/fragment_circle_calc.xml #generated:469
+# onClick res/layout/fragment_circle_calc.xml #generated:480
+# onClick res/layout/fragment_circle_calc.xml #generated:491
+# onClick res/layout/fragment_circle_calc.xml #generated:502
+# onClick res/layout/fragment_circle_calc.xml #generated:51
+# onClick res/layout/fragment_circle_calc.xml #generated:521
+# onClick res/layout/fragment_circle_calc.xml #generated:532
+# onClick res/layout/fragment_circle_calc.xml #generated:543
+# onClick res/layout/fragment_circle_calc.xml #generated:554
+# onClick res/layout/fragment_circle_calc.xml #generated:565
+# onClick res/layout/fragment_circle_calc.xml #generated:584
+# onClick res/layout/fragment_circle_calc.xml #generated:595
+# onClick res/layout/fragment_circle_calc.xml #generated:606
+# onClick res/layout/fragment_circle_calc.xml #generated:617
+# onClick res/layout/fragment_circle_calc.xml #generated:628
+# onClick res/layout/fragment_circle_calc.xml #generated:647
+# onClick res/layout/fragment_circle_calc.xml #generated:658
+# onClick res/layout/fragment_circle_calc.xml #generated:669
+# onClick res/layout/fragment_circle_calc.xml #generated:680
+# onClick res/layout/fragment_circle_calc.xml #generated:691
+# onClick res/layout/fragment_circle_calc.xml #generated:78
+# onClick res/layout/fragment_circle_calc.xml #generated:89
+-keepclassmembers class * { *** OnNumClick(...); }
+
+# onClick res/layout/fragment_circle_calc.xml #generated:140
+-keepclassmembers class * { *** Shift(...); }
+
+# onClick res/layout/fragment_circle_calc.xml #generated:461
+-keepclassmembers class * { *** UnShift(...); }
+

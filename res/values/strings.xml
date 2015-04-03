@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Circle Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="ans">Ans</string>
+    <string name="recent_history">Recent History</string>
+    <string name="action_tutorial">Show Tutorial</string>
+    <string name="action_ratestring">Rate Me 5 Stars!</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+
+</resources>

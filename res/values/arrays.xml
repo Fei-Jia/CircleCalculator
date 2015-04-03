@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+    
+    <string-array name="DecimalList">
+        <item>6 (Recommended)</item>
+        <item>10 (Too Much)</item>
+        <item>Max (May look Weird)</item>
+    </string-array>
+
+    <string-array name="DecimalValues">
+        <item>6</item>
+        <item>10</item>
+        <item>50</item>
+    </string-array>
+</resources>

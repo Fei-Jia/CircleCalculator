@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+		<PreferenceCategory android:title="Preferences">
+￼￼￼￼			<CheckBoxPreference
+				android:title="Button Sound" 
+				android:defaultValue="false" 
+				android:summary="Enable or Disable Button Sound" 
+				android:key="SoundPref"/>
+			<CheckBoxPreference
+				android:title="Button Vibrate" 
+				android:defaultValue="false" 
+				android:summary="Enable or Disable Button Vibration" 
+				android:key="VibrationPref"/>
+			<ListPreference
+            	android:title="Number of Rencent Histories"
+            	android:summary="Choose Number of Recent Histories to Show" 
+            	android:key="HistoryPrefNum"
+            	android:defaultValue="20"
+            	android:entries="@array/listArray"
+            	android:entryValues="@array/listValues" />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="Math Preferences">
+			<CheckBoxPreference
+				android:title="Use Radian Measure" 
+				android:defaultValue="false"
+				android:summary="Uncheck to use degree for angles" 
+				android:key="RadianPref"/>
+			<ListPreference
+            	android:title="Max Decimal Precision"
+            	android:summary="Choose Max Precision of Decimal Results" 
+            	android:key="DecimalDigits"
+            	android:defaultValue="6"
+            	android:entries="@array/DecimalList"
+            	android:entryValues="@array/DecimalValues" />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="About">
+			<PreferenceScreen
+				android:title="About Circle Calculator 1.0.0"
+				android:summary="Click for More Info"
+				android:key="secondPrefScreenPref" > 
+				<Preference
+                	android:selectable="false" 
+                	android:enabled="true"
+                	android:title="About Circle Calculator"
+                	android:summary="This circle button style calculator is designed to be aesthetically pleasing, easy to use and superbly functional. This is my first android project so it will be ad free and pro version free forever. Please give me five stars in the play store rating if you like it! Thanks!"
+                	android:key="about circlecalc" />
+				<Preference
+                	android:selectable="false" 
+                	android:enabled="true"
+                	android:title="Bug Report"
+                	android:summary="Please Report Any Bugs to me at: jiafeigm@gmail.com"
+                	android:key="BR" />
+			</PreferenceScreen> 	
+		</PreferenceCategory>
+</PreferenceScreen>
